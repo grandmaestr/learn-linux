@@ -1,0 +1,902 @@
+git-cat-file	"""https://man7.org/linux/man-pages/man1/git-check-attr.1.html"	git-check-attr - Display gitattributes information
+indent	"""https://man7.org/linux/man-pages/man1/indxbib.1.html"	indxbib - make inverted index for bibliographic databases
+msguniq	"""https://man7.org/linux/man-pages/man1/ms_print.1.html"	ms_print - post-processing tool for Massif
+dh_movefiles	dh_movefiles - move files out of debian/tmp into subpackages	
+dh_perl	"dh_perl - calculates Perl dependencies and cleans up after
+MakeMaker"	
+dh_prep	"dh_prep - perform cleanups in preparation for building a binary
+package"	
+dh_shlibdeps	dh_shlibdeps - calculate shared library dependencies	
+dh_strip	"dh_strip - strip executables, shared libraries, and some static
+libraries"	
+dh_systemd_enable	dh_systemd_enable - enable/disable systemd unit files	
+dh_systemd_start	dh_systemd_start - start/stop/restart systemd unit files	
+dh_testdir	dh_testdir - test directory before building Debian package	
+dh_testroot	"dh_testroot - ensure that a package is built with necessary level
+of root permissions"	
+dh_ucf	dh_ucf - register configuration files with ucf	
+dh_update_autotools_config	dh_update_autotools_config - Update autotools config files	
+dh_usrlocal	dh_usrlocal - migrate usr/local directories to maintainer scripts	
+diff	diff - compare files line by line	
+diff3	diff3 - compare three files line by line	
+dir	dir - list directory contents	
+dircolors	dircolors - color setup for ls	
+dirname	dirname - strip last component from file name	
+dlltool	dlltool - create files needed to build and use DLLs	
+dmesg	dmesg - print or control the kernel ring buffer	
+dpkg	dpkg - package manager for Debian	
+dpkg-architecture	"dpkg-architecture - set and determine the architecture for
+package building"	
+dpkg-buildflags	dpkg-buildflags - returns build flags to use during package build	
+dpkg-buildpackage	dpkg-buildpackage - build binary or source packages from sources	
+dpkg-checkbuilddeps	dpkg-checkbuilddeps - check build dependencies and conflicts	
+dpkg-deb	dpkg-deb - Debian package archive (.deb) manipulation tool	
+dpkg-distaddfile	dpkg-distaddfile - add entries to debian/files	
+dpkg-divert	dpkg-divert - override a package's version of a file	
+dpkg-genbuildinfo	dpkg-genbuildinfo - generate Debian .buildinfo files	
+dpkg-genchanges	dpkg-genchanges - generate Debian .changes files	
+dpkg-gencontrol	dpkg-gencontrol - generate Debian control files	
+dpkg-gensymbols	"dpkg-gensymbols - generate symbols files (shared library
+dependency information)"	
+dpkg-maintscript-helper	"dpkg-maintscript-helper - works around known dpkg limitations in
+maintainer scripts"	
+dpkg-mergechangelogs	dpkg-mergechangelogs - 3-way merge of debian/changelog files	
+dpkg-name	dpkg-name - rename Debian packages to full package names	
+dpkg-parsechangelog	dpkg-parsechangelog - parse Debian changelog files	
+dpkg-query	dpkg-query - a tool to query the dpkg database	
+dpkg-scanpackages	dpkg-scanpackages - create Packages index files	
+dpkg-scansources	dpkg-scansources - create Sources index files	
+dpkg-shlibdeps	dpkg-shlibdeps - generate shared library substvar dependencies	
+dpkg-source	dpkg-source - Debian source package (.dsc) manipulation tool	
+dpkg-split	dpkg-split - Debian package archive split/join tool	
+dpkg-statoverride	dpkg-statoverride - override ownership and mode of files	
+dpkg-trigger	dpkg-trigger - a package trigger utility	
+dpkg-vendor	dpkg-vendor - queries information about distribution vendors	
+dselect	dselect - Debian package management frontend	
+dtrace	"dtrace - Dtrace compatible user application static probe
+generation tool."	
+du	du - estimate file space usage	
+dumpkeys	dumpkeys - dump keyboard translation tables	
+echo	echo - display a line of text	
+eject	"eject - eject removable media
+eject [options] device|mountpoint"	
+elfedit	elfedit - update ELF header and program property of ELF files	
+env	env - run a program in a modified environment	
+envsubst	"envsubst - substitutes environment variables in shell format
+strings"	
+eqn	eqn - format equations for groff or MathML	
+eqn2graph	eqn2graph - convert an eqn equation into a cropped image	
+expand	expand - convert tabs to spaces	
+expect	"expect - programmed dialogue with interactive programs, Version 5"	
+expiry	expiry - check and enforce password expiration policy	
+expr	expr - evaluate expressions	
+factor	factor - factor numbers	
+fallocate	fallocate - preallocate or deallocate space to a file	
+FALSE	"false - do nothing, unsuccessfully"	
+fedabipkgdiff	"fedabipkgdiff - compare ABIs of Fedora packages
+fedabipkgdiff compares the ABI of shared libraries in Fedora
+packages. It's a convenient way to do so without having to
+manually download packages from the Fedora Build System.
+fedabipkgdiff knows how to talk with the Fedora Build System to
+find the right packages versions, their associated debug
+information and development packages, download them, compare
+their ABI locally, and report about the possible ABI changes.
+Note that by default, this tool reports ABI changes about types
+that are defined in public header files found in the development
+packages associated with the packages being compared. It also
+reports ABI changes about functions and global variables whose
+symbols are defined and exported in the ELF binaries found in the
+packages being compared."	
+fgconsole	fgconsole - print the number of the active VT.	
+file	file — determine file type	
+fincore	fincore - count pages of file contents in core	
+find	find - search for files in a directory hierarchy	
+find-filter	"find-filter - fine-grained file selection based on time
+attributes"	
+find-repos-of-install	"find-repos-of-install - report which Yum repository a package was
+installed from"	
+Firecfg	Firecfg - Desktop integration utility for Firejail software.	
+firecfg	Firecfg - Desktop integration utility for Firejail software.	
+Firejail	Firejail - Linux namespaces sandbox program	
+firejail	Firejail - Linux namespaces sandbox program	
+Firemon	"Firemon - Monitoring program for processes started in a Firejail
+sandbox."	
+firemon	"Firemon - Monitoring program for processes started in a Firejail
+sandbox."	
+flatpak	"flatpak - Build, install and run applications and runtimes"	
+flatpak-build	flatpak-build - Build in a directory	
+flatpak-build-bundle	"flatpak-build-bundle - Create a single-file bundle from a local
+repository"	
+flatpak-build-commit-from	"flatpak-build-commit-from - Create new commits based on existing
+one (possibly from another repository)"	
+flatpak-build-export	flatpak-build-export - Create a repository from a build directory	
+flatpak-build-finish	flatpak-build-finish - Finalize a build directory	
+flatpak-build-import-bundle	"flatpak-build-import-bundle - Import a file bundle into a local
+repository"	
+flatpak-build-init	flatpak-build-init - Initialize a build directory	
+flatpak-build-sign	flatpak-build-sign - Sign an application or runtime	
+flatpak-build-update-repo	"flatpak-build-update-repo - Create a repository from a build
+directory"	
+flatpak-config	flatpak-config - Manage configuration	
+flatpak-create-usb	"flatpak-create-usb - Copy apps and/or runtimes onto removable
+media."	
+flatpak-document-export	"flatpak-document-export - Export a file to a sandboxed
+application"	
+flatpak-document-info	flatpak-document-info - Show information about exported files	
+flatpak-document-unexport	flatpak-document-unexport - Stop exporting a file	
+flatpak-documents	flatpak-documents - List exported files	
+flatpak-enter	flatpak-enter - Enter an application or runtime's sandbox	
+flatpak-history	flatpak-history - Show history	
+flatpak-info	"flatpak-info - Show information about an installed application or
+runtime"	
+flatpak-install	flatpak-install - Install an application or runtime	
+flatpak-kill	flatpak-kill - Stop a running application	
+flatpak-list	flatpak-list - List installed applications and/or runtimes	
+flatpak-make-current	flatpak-make-current - Make a specific version of an app current	
+flatpak-mask	flatpak-mask - Mask out updates and automatic installation	
+flatpak-override	flatpak-override - Override application requirements	
+flatpak-permission-remove	flatpak-permission-remove - Remove permissions	
+flatpak-permission-reset	flatpak-permission-reset - Reset permissions	
+flatpak-permission-set	flatpak-permission-set - Set permissions	
+flatpak-permission-show	flatpak-permission-show - Show permissions	
+flatpak-permissions	flatpak-permissions - List permissions	
+flatpak-pin	flatpak-pin - Pin runtimes to prevent automatic removal	
+flatpak-ps	flatpak-ps - Enumerate running instances	
+flatpak-remote-add	flatpak-remote-add - Add a remote repository	
+flatpak-remote-delete	flatpak-remote-delete - Delete a remote repository	
+flatpak-remote-info	"flatpak-remote-info - Show information about an application or
+runtime in a remote"	
+flatpak-remote-ls	flatpak-remote-ls - Show available runtimes and applications	
+flatpak-remote-modify	flatpak-remote-modify - Modify a remote repository	
+flatpak-remotes	flatpak-remotes - List remote repositories	
+flatpak-repair	flatpak-repair - Repair a flatpak installation	
+flatpak-repo	flatpak-repo - Show information about a local repository	
+flatpak-run	flatpak-run - Run an application or open a shell in a runtime	
+flatpak-search	flatpak-search - Search for applications and runtimes	
+flatpak-spawn	flatpak-spawn - Run commands in a sandbox	
+flatpak-uninstall	flatpak-uninstall - Uninstall an application or runtime	
+flatpak-update	flatpak-update - Update an application or runtime	
+flock	flock - manage locks from shell scripts	
+fmt	fmt - simple optimal text formatter	
+fold	fold - wrap each input line to fit in specified width	
+free	free - Display amount of free and used memory in the system	
+fuse2fs	fuse2fs - FUSE file system client for ext2/ext3/ext4 file systems	
+fuser	fuser - identify processes using files or sockets	
+fusermount3	fusermount3 - mount and unmount FUSE filesystems	
+galera_new_cluster	galera_new_cluster - starting a new Galera cluster	
+galera_recovery	galera_recovery - recover from non-graceful shutdown	
+ganglia2pcp	ganglia2pcp - import ganglia data and create a PCP archive	
+gawk	gawk - pattern scanning and processing language	
+g++	gcc - GNU project C and C++ compiler	
+gcc	gcc - GNU project C and C++ compiler	
+gcore	gcore - Generate a core file of a running program	
+gcov	gcov - coverage testing tool	
+gcov-dump	gcov-dump - offline gcda and gcno profile dump tool	
+gcov-tool	gcov-tool - offline gcda profile processing tool	
+gdb	gdb - The GNU Debugger	
+gdb-add-index	gdb-add-index - Add index files to speed up GDB	
+gdbserver	gdbserver - Remote Server for the GNU Debugger	
+gdiffmk	gdiffmk - mark differences between groff/nroff/troff files	
+genbrk	"genbrk - Compiles ICU break iteration rules source files into
+binary data files"	
+gencfu	gencfu - Generates Unicode Confusable data files	
+gencnval	gencnval - compile the converters aliases file	
+gendict	gendict - Compiles word list into ICU string trie dictionary	
+gendiff	gendiff - utility to aid in error-free diff file generation	
+genpmda	genpmda - Performance Co-Pilot PMDA Generator	
+genrb	genrb - compile a resource bundle	
+getent	getent - get entries from Name Service Switch libraries	
+getfacl	getfacl - get file access control lists	
+getfattr	getfattr - get extended attributes of filesystem objects	
+getopt	getopt - parse command options (enhanced)	
+gettext	gettext - translate message	
+gettextize	gettextize - install or upgrade gettext infrastructure	
+gfortran	gfortran - GNU Fortran compiler	
+git	git - the stupid content tracker	
+git-add	git-add - Add file contents to the index	
+git-am	git-am - Apply a series of patches from a mailbox	
+git-annotate	git-annotate - Annotate file lines with commit information	
+git-apply	git-apply - Apply a patch to files and/or to the index	
+git-archimport	git-archimport - Import a GNU Arch repository into Git	
+git-archive	git-archive - Create an archive of files from a named tree	
+git-bisect	"git-bisect - Use binary search to find the commit that introduced
+a bug"	
+git-blame	"git-blame - Show what revision and author last modified each line
+of a file"	
+git-branch	"git-branch - List, create, or delete branches"	
+git-bugreport	git-bugreport - Collect information for user to file a bug report	
+git-bundle	git-bundle - Move objects and refs by archive	
+git-check-ignore	git-check-ignore - Debug gitignore / exclude files	
+git-check-mailmap	"git-check-mailmap - Show canonical names and email addresses of
+contacts"	
+git-check-ref-format	"git-check-ref-format - Ensures that a reference name is well
+formed"	
+git-checkout	git-checkout - Switch branches or restore working tree files	
+git-checkout-index	"git-checkout-index - Copy files from the index to the working
+tree"	
+git-cherry	git-cherry - Find commits yet to be applied to upstream	
+git-cherry-pick	"git-cherry-pick - Apply the changes introduced by some existing
+commits"	
+git-citool	git-citool - Graphical alternative to git-commit	
+git-clean	git-clean - Remove untracked files from the working tree	
+git-clone	git-clone - Clone a repository into a new directory	
+git-column	git-column - Display data in columns	
+git-commit	git-commit - Record changes to the repository	
+git-commit-graph	git-commit-graph - Write and verify Git commit-graph files	
+git-commit-tree	git-commit-tree - Create a new commit object	
+git-config	git-config - Get and set repository or global options	
+git-count-objects	"git-count-objects - Count unpacked number of objects and their
+disk consumption"	
+git-credential	git-credential - Retrieve and store user credentials	
+git-credential-cache	"git-credential-cache - Helper to temporarily store passwords in
+memory"	
+git-credential-cache--daemon	"git-credential-cache--daemon - Temporarily store user credentials
+in memory"	
+git-credential-store	git-credential-store - Helper to store credentials on disk	
+git-cvsexportcommit	git-cvsexportcommit - Export a single commit to a CVS checkout	
+git-cvsimport	"git-cvsimport - Salvage your data out of another SCM people love
+to hate"	
+git-cvsserver	git-cvsserver - A CVS server emulator for Git	
+git-daemon	git-daemon - A really simple server for Git repositories	
+git-describe	"git-describe - Give an object a human readable name based on an
+available ref"	
+git-diff	"git-diff - Show changes between commits, commit and working tree,
+etc"	
+git-diff-files	git-diff-files - Compares files in the working tree and the index	
+git-diff-index	git-diff-index - Compare a tree to the working tree or index	
+git-diff-tree	"git-diff-tree - Compares the content and mode of blobs found via
+two tree objects"	
+git-difftool	git-difftool - Show changes using common diff tools	
+git-fast-export	git-fast-export - Git data exporter	
+git-fast-import	git-fast-import - Backend for fast Git data importers	
+git-fetch	git-fetch - Download objects and refs from another repository	
+git-fetch-pack	git-fetch-pack - Receive missing objects from another repository	
+git-filter-branch	git-filter-branch - Rewrite branches	
+git-fmt-merge-msg	git-fmt-merge-msg - Produce a merge commit message	
+git-for-each-ref	git-for-each-ref - Output information on each ref	
+git-for-each-repo	git-for-each-repo - Run a Git command on a list of repositories	
+git-format-patch	git-format-patch - Prepare patches for e-mail submission	
+git-fsck	"git-fsck - Verifies the connectivity and validity of the objects
+in the database"	
+git-fsck-objects	"git-fsck-objects - Verifies the connectivity and validity of the
+objects in the database"	
+git-gc	"git-gc - Cleanup unnecessary files and optimize the local
+repository"	
+git-get-tar-commit-id	"git-get-tar-commit-id - Extract commit ID from an archive created
+using git-archive"	
+git-grep	git-grep - Print lines matching a pattern	
+git-gui	git-gui - A portable graphical interface to Git	
+git-hash-object	"git-hash-object - Compute object ID and optionally creates a blob
+from a file"	
+git-help	git-help - Display help information about Git	
+git-http-backend	git-http-backend - Server side implementation of Git over HTTP	
+git-http-fetch	git-http-fetch - Download from a remote Git repository via HTTP	
+git-http-push	git-http-push - Push objects over HTTP/DAV to another repository	
+git-imap-send	"git-imap-send - Send a collection of patches from stdin to an
+IMAP folder"	
+git-index-pack	"git-index-pack - Build pack index file for an existing packed
+archive"	
+git-init	"git-init - Create an empty Git repository or reinitialize an
+existing one"	
+git-init-db	git-init-db - Creates an empty Git repository	
+git-instaweb	git-instaweb - Instantly browse your working repository in gitweb	
+git-interpret-trailers	"git-interpret-trailers - Add or parse structured information in
+commit messages"	
+git-log	git-log - Show commit logs	
+git-ls-files	"git-ls-files - Show information about files in the index and the
+working tree"	
+git-ls-remote	git-ls-remote - List references in a remote repository	
+git-ls-tree	git-ls-tree - List the contents of a tree object	
+git-mailinfo	"git-mailinfo - Extracts patch and authorship from a single e-mail
+message"	
+git-mailsplit	git-mailsplit - Simple UNIX mbox splitter program	
+git-maintenance	git-maintenance - Run tasks to optimize Git repository data	
+git-merge	git-merge - Join two or more development histories together	
+git-merge-base	"git-merge-base - Find as good common ancestors as possible for a
+merge"	
+git-merge-file	git-merge-file - Run a three-way file merge	
+git-merge-index	git-merge-index - Run a merge for files needing merging	
+git-merge-one-file	"git-merge-one-file - The standard helper program to use with
+git-merge-index"	
+git-merge-tree	git-merge-tree - Show three-way merge without touching index	
+git-mergetool	"git-mergetool - Run merge conflict resolution tools to resolve
+merge conflicts"	
+git-mergetool--lib	git-mergetool--lib - Common Git merge tool shell scriptlets	
+git-mktag	git-mktag - Creates a tag object with extra validation	
+git-mktree	git-mktree - Build a tree-object from ls-tree formatted text	
+git-multi-pack-index	git-multi-pack-index - Write and verify multi-pack-indexes	
+git-mv	"git-mv - Move or rename a file, a directory, or a symlink"	
+git-name-rev	git-name-rev - Find symbolic names for given revs	
+git-notes	git-notes - Add or inspect object notes	
+git-p4	git-p4 - Import from and submit to Perforce repositories	
+git-pack-objects	git-pack-objects - Create a packed archive of objects	
+git-pack-redundant	git-pack-redundant - Find redundant pack files	
+git-pack-refs	"git-pack-refs - Pack heads and tags for efficient repository
+access"	
+git-parse-remote	"git-parse-remote - Routines to help parsing remote repository
+access parameters"	
+git-patch-id	git-patch-id - Compute unique ID for a patch	
+git-prune	"git-prune - Prune all unreachable objects from the object
+database"	
+git-prune-packed	"git-prune-packed - Remove extra objects that are already in pack
+files"	
+git-pull	"git-pull - Fetch from and integrate with another repository or a
+local branch"	
+git-push	git-push - Update remote refs along with associated objects	
+git-quiltimport	"git-quiltimport - Applies a quilt patchset onto the current
+branch"	
+git-range-diff	"git-range-diff - Compare two commit ranges (e.g. two versions of
+a branch)"	
+git-read-tree	git-read-tree - Reads tree information into the index	
+git-rebase	git-rebase - Reapply commits on top of another base tip	
+git-receive-pack	git-receive-pack - Receive what is pushed into the repository	
+git-reflog	git-reflog - Manage reflog information	
+git-relink	git-relink - Hardlink common objects in local repositories	
+git-remote	git-remote - Manage set of tracked repositories	
+git-remote-ext	git-remote-ext - Bridge smart transport to external command.	
+git-remote-fd	git-remote-fd - Reflect smart transport stream back to caller	
+git-remote-testgit	git-remote-testgit - Example remote-helper	
+git-repack	git-repack - Pack unpacked objects in a repository	
+git-replace	"git-replace - Create, list, delete refs to replace objects"	
+git-request-pull	git-request-pull - Generates a summary of pending changes	
+git-rerere	git-rerere - Reuse recorded resolution of conflicted merges	
+git-reset	git-reset - Reset current HEAD to the specified state	
+git-restore	git-restore - Restore working tree files	
+git-rev-list	"git-rev-list - Lists commit objects in reverse chronological
+order"	
+git-rev-parse	git-rev-parse - Pick out and massage parameters	
+git-revert	git-revert - Revert some existing commits	
+git-rm	git-rm - Remove files from the working tree and from the index	
+git-send-email	git-send-email - Send a collection of patches as emails	
+git-send-pack	"git-send-pack - Push objects over Git protocol to another
+repository"	
+git-series	git-series - track changes to a patch series with git	
+git-sh-i18n	git-sh-i18n - Git's i18n setup code for shell scripts	
+git-sh-i18n--envsubst	git-sh-i18n--envsubst - Git's own envsubst(1) for i18n fallbacks	
+git-sh-setup	git-sh-setup - Common Git shell script setup code	
+git-shell	git-shell - Restricted login shell for Git-only SSH access	
+git-shortlog	git-shortlog - Summarize 'git log' output	
+git-show	git-show - Show various types of objects	
+git-show-branch	git-show-branch - Show branches and their commits	
+git-show-index	git-show-index - Show packed archive index	
+git-show-ref	git-show-ref - List references in a local repository	
+git-sparse-checkout	"git-sparse-checkout - Initialize and modify the sparse-checkout
+configuration, which reduces the checkout to a set of paths given
+by a list of patterns."	
+git-stage	git-stage - Add file contents to the staging area	
+git-stash	git-stash - Stash the changes in a dirty working directory away	
+git-status	git-status - Show the working tree status	
+git-stripspace	git-stripspace - Remove unnecessary whitespace	
+git-submodule	"git-submodule - Initialize, update or inspect submodules"	
+git-svn	"git-svn - Bidirectional operation between a Subversion repository
+and Git"	
+git-switch	git-switch - Switch branches	
+git-symbolic-ref	"git-symbolic-ref - Read, modify and delete symbolic refs"	
+git-tag	"git-tag - Create, list, delete or verify a tag object signed with
+GPG"	
+git-unpack-file	git-unpack-file - Creates a temporary file with a blob's contents	
+git-unpack-objects	git-unpack-objects - Unpack objects from a packed archive	
+git-update-index	"git-update-index - Register file contents in the working tree to
+the index"	
+git-update-ref	git-update-ref - Update the object name stored in a ref safely	
+git-update-server-info	"git-update-server-info - Update auxiliary info file to help dumb
+servers"	
+git-upload-archive	git-upload-archive - Send archive back to git-archive	
+git-upload-pack	git-upload-pack - Send objects packed back to git-fetch-pack	
+git-var	git-var - Show a Git logical variable	
+git-verify-commit	git-verify-commit - Check the GPG signature of commits	
+git-verify-pack	git-verify-pack - Validate packed Git archive files	
+git-verify-tag	git-verify-tag - Check the GPG signature of tags	
+git-web--browse	git-web--browse - Git helper script to launch a web browser	
+git-whatchanged	"git-whatchanged - Show logs with difference each commit
+introduces"	
+git-worktree	git-worktree - Manage multiple working trees	
+git-write-tree	git-write-tree - Create a tree object from the current index	
+gitk	gitk - The Git repository browser	
+gitremote-helpers	"gitremote-helpers - Helper programs to interact with remote
+repositories"	
+gitweb	gitweb - Git web interface (web frontend to Git repositories)	
+glilypond	glilypond - embed LilyPond musical notation in groff documents	
+gnutls-cli	gnutls-cli - GnuTLS client	
+gnutls-cli-debug	gnutls-cli-debug - GnuTLS debug client	
+gnutls-serv	gnutls-serv - GnuTLS server	
+gpasswd	gpasswd - administer /etc/group and /etc/gshadow	
+gperl	gperl - execute Perl commands in groff documents	
+gpinyin	gpinyin - use Hanyu Pinyin Chinese in groff documents	
+gprof	gprof - display call graph profile data	
+grap2graph	grap2graph - convert a GRAP diagram into a cropped image	
+egrep	grep - print lines that match patterns	
+fgrep	grep - print lines that match patterns	
+grep	grep - print lines that match patterns	
+grn	grn - embed gremlin images in groff documents	
+grodvi	grodvi - groff output driver for TeX DVI format	
+groff	groff - front end to the GNU roff document formatting system	
+groffer	groffer - display groff files and man pages on X and tty	
+grog	grog - “groff guess”—infer the groff command a document requires	
+grohtml	"grohtml, post-grohtml, pre-grohtml - groff output driver for HTML"	
+grolbp	grolbp - groff output driver for Canon CAPSL printers	
+grolj4	grolj4 - groff output driver for HP LaserJet 4 family printers	
+gropdf	gropdf - groff output driver for Portable Document Format	
+grops	grops - groff output driver for PostScript	
+grotty	"grotty - groff output driver for typewriter-like (terminal)
+devices"	
+groups	groups - print the groups a user is in	
+guards	guards - select from a list of files guarded by conditions	
+hardlink	hardlink - link multiple copies of a file	
+head	head - output the first part of files	
+hexdump	"hexdump - display file contents in hexadecimal, decimal, octal,
+or ascii
+hexdump options file ...
+hd options file ..."	
+hg	hg - Mercurial source code management system	
+homectl	"homectl - Create, remove, change or inspect home directories"	
+hostid	hostid - print the numeric identifier for the current host	
+dnsdomainname	"hostname - show or set the system's host name
+dnsdomainname - show the system's DNS domain name
+domainname - show or set the system's NIS/YP domain name
+nisdomainname - show or set system's NIS/YP domain name
+nodename - show or set the system's DECnet node name
+ypdomainname - show or set the system's NIS/YP domain name"	
+domainname	"hostname - show or set the system's host name
+dnsdomainname - show the system's DNS domain name
+domainname - show or set the system's NIS/YP domain name
+nisdomainname - show or set system's NIS/YP domain name
+nodename - show or set the system's DECnet node name
+ypdomainname - show or set the system's NIS/YP domain name"	
+hostname	"hostname - show or set the system's host name
+dnsdomainname - show the system's DNS domain name
+domainname - show or set the system's NIS/YP domain name
+nisdomainname - show or set system's NIS/YP domain name
+nodename - show or set the system's DECnet node name
+ypdomainname - show or set the system's NIS/YP domain name"	
+nisdomainname	"hostname - show or set the system's host name
+dnsdomainname - show the system's DNS domain name
+domainname - show or set the system's NIS/YP domain name
+nisdomainname - show or set system's NIS/YP domain name
+nodename - show or set the system's DECnet node name
+ypdomainname - show or set the system's NIS/YP domain name"	
+nodename	"hostname - show or set the system's host name
+dnsdomainname - show the system's DNS domain name
+domainname - show or set the system's NIS/YP domain name
+nisdomainname - show or set system's NIS/YP domain name
+nodename - show or set the system's DECnet node name
+ypdomainname - show or set the system's NIS/YP domain name"	
+hostnamectl	hostnamectl - Control the system hostname	
+hpftodit	hpftodit - create font description files for use with groff -Tlj4	
+htop	"htop, pcp-htop - interactive process viewer"	
+pcp-htop	"htop, pcp-htop - interactive process viewer"	
+ib_acme	ib_acme - test and configuration utility for the IB ACM	
+ibv_asyncwatch	ibv_asyncwatch - display asynchronous events	
+ibv_devices	ibv_devices - list RDMA devices	
+ibv_devinfo	ibv_devinfo - query RDMA devices	
+ibv_rc_pingpong	ibv_rc_pingpong - simple InfiniBand RC transport test	
+ibv_srq_pingpong	ibv_srq_pingpong - simple InfiniBand shared receive queue test	
+ibv_uc_pingpong	ibv_uc_pingpong - simple InfiniBand UC transport test	
+ibv_ud_pingpong	ibv_ud_pingpong - simple InfiniBand UD transport test	
+ibv_xsrq_pingpong	ibv_xsrq_pingpong - simple InfiniBand shared receive queue test	
+iconv	iconv - convert text from one character encoding to another	
+id	id - print real and effective user and group IDs	
+innochecksum	innochecksum - offline InnoDB file checksum utility	
+fsnotifywait	"inotifywait, fsnotifywait - wait for changes to files using
+inotify or fanotify"	
+inotifywait	"inotifywait, fsnotifywait - wait for changes to files using
+inotify or fanotify"	
+fsnotifywatch	"inotifywatch, fsnotifywatch - gather filesystem access statistics
+using inotify or fanotify"	
+inotifywatch	"inotifywatch, fsnotifywatch - gather filesystem access statistics
+using inotify or fanotify"	
+install	install - copy files and set attributes	
+intro	intro - introduction to user commands	
+ionice	ionice - set or get process I/O scheduling class and priority	
+iostat	"iostat - Report Central Processing Unit (CPU) statistics and
+input/output statistics for devices and partitions."	
+iostat2pcp	iostat2pcp - import iostat data and create a PCP archive	
+iowatcher	iowatcher - Create visualizations from blktrace results	
+ipcmk	ipcmk - make various IPC resources	
+ipcrm	ipcrm - remove certain IPC resources	
+ipcs	ipcs - show information on IPC facilities	
+ippeveprinter	ippeveprinter - an ipp everywhere printer application for cups	
+ippfind	ippfind - find internet printing protocol printers	
+ipptool	ipptool - perform internet printing protocol requests	
+iptables-xml	iptables-xml — Convert iptables-save format to XML	
+irqtop	irqtop - utility to display kernel interrupt information	
+jailcheck	jailcheck - Simple utility program to test running sandboxes	
+join	join - join lines of two files on a common field	
+journalctl	journalctl - Query the systemd journal	
+kbd_mode	kbd_mode - report or set the keyboard mode	
+kbdinfo	kbdinfo - read information about keyboard state	
+keyctl	keyctl - key management facility control	
+kill	kill - terminate a process	
+killall	killall - kill processes by name	
+last	last - list logins on the system	
+lastb	last - list logins on the system	
+lastcomm	"lastcomm - print out information about previously executed
+commands."	
+ld	ld - The GNU linker	
+ldapcompare	ldapcompare - LDAP compare tool	
+ldapdelete	ldapdelete - LDAP delete entry tool	
+ldapexop	ldapexop - issue LDAP extended operations	
+ldapadd	"ldapmodify, ldapadd - LDAP modify entry and LDAP add entry tools"	
+ldapmodify	"ldapmodify, ldapadd - LDAP modify entry and LDAP add entry tools"	
+ldapmodrdn	ldapmodrdn - LDAP rename entry tool	
+ldappasswd	ldappasswd - change the password of an LDAP entry	
+ldapsearch	ldapsearch - LDAP search tool	
+ldapurl	ldapurl - LDAP URL formatting tool	
+ldapvc	ldapvc - LDAP verify credentials tool	
+ldapwhoami	ldapwhoami - LDAP who am i? tool	
+ldd	ldd - print shared object dependencies	
+less	less - opposite of more	
+lessecho	lessecho - expand metacharacters	
+lesskey	lesskey - specify key bindings for less	
+lexgrog	lexgrog - parse header information in man pages	
+link	link - call the link function to create a link to a file	
+lkbib	lkbib - search bibliographic databases	
+ln	ln - make links between files	
+loadkeys	loadkeys - load keyboard translation tables	
+locale	locale - get locale-specific information	
+localectl	"localectl - Control the system locale and keyboard layout
+settings"	
+localedef	localedef - compile locale definition files	
+locate	locate - list files in databases that match a pattern	
+logger	logger - enter messages into the system log	
+login	login - begin session on the system	
+loginctl	loginctl - Control the systemd login manager	
+logname	logname - print user´s login name	
+look	look - display lines beginning with a given string	
+lookbib	lookbib - search bibliographic databases	
+lp	lp - print files	
+lpoptions	lpoptions - display or set printer options and defaults	
+lpq	lpq - show printer queue status	
+lpr	lpr - print files	
+lprm	lprm - cancel print jobs	
+lpstat	lpstat - print cups status information	
+ls	ls - list directory contents	
+lsattr	"lsattr - list file attributes on a Linux second extended file
+system"	
+lscpu	lscpu - display information about the CPU architecture	
+lsinitrd	lsinitrd - tool to show the contents of an initramfs image	
+lsipc	"lsipc - show information on IPC facilities currently employed in
+the system"	
+lsirq	lsirq - utility to display kernel interrupt information	
+lslogins	lslogins - display information about known users in the system	
+lsmem	"lsmem - list the ranges of available memory with their online
+status"	
+ltrace	ltrace - A library call tracer	
+lttng	lttng - LTTng 2 tracer control command-line tool	
+lttng-add-context	lttng-add-context - Add context fields to an LTTng channel	
+lttng-calibrate	lttng-calibrate - Quantify LTTng overhead	
+lttng-crash	"lttng-crash - Recover and view LTTng 2 trace buffers in the event
+of a crash"	
+lttng-create	lttng-create - Create an LTTng tracing session	
+lttng-destroy	lttng-destroy - Destroy an LTTng tracing session	
+lttng-disable-channel	lttng-disable-channel - Disable LTTng channels	
+lttng-disable-event	lttng-disable-event - Disable LTTng event rules	
+lttng-disable-rotation	"lttng-disable-rotation - Unset a tracing session's rotation
+schedule"	
+lttng-enable-channel	lttng-enable-channel - Create or enable LTTng channels	
+lttng-enable-event	lttng-enable-event - Create or enable LTTng event rules	
+lttng-enable-rotation	lttng-enable-rotation - Set a tracing session's rotation schedule	
+lttng-gen-tp	lttng-gen-tp - Generate LTTng-UST tracepoint provider code	
+lttng-help	lttng-help - Display help information about an LTTng command	
+lttng-list	"lttng-list - List LTTng tracing sessions, domains, channels, and
+events"	
+lttng-load	lttng-load - Load LTTng tracing session configurations	
+lttng-metadata	"lttng-metadata - Manage an LTTng tracing session's metadata
+generation"	
+lttng-regenerate	"lttng-regenerate - Manage an LTTng tracing session's data
+regeneration"	
+lttng-rotate	lttng-rotate - Archive a tracing session's current trace chunk	
+lttng-save	lttng-save - Save LTTng tracing session configurations	
+lttng-set-session	lttng-set-session - Set the current LTTng tracing session	
+lttng-snapshot	"lttng-snapshot - Take LTTng snapshots and configure snapshot
+outputs"	
+lttng-start	lttng-start - Start LTTng tracers	
+lttng-status	lttng-status - Get the current LTTng tracing session's status	
+lttng-stop	lttng-stop - Stop LTTng tracers	
+lttng-track	"lttng-track - Add one or more entries to an LTTng resource
+tracker"	
+lttng-untrack	"lttng-untrack - Remove one or more entries from an LTTng resource
+tracker"	
+lttng-version	lttng-version - Get the version of LTTng-tools	
+lttng-view	lttng-view - View the traces of an LTTng tracing session	
+lxc-attach	lxc-attach - start a process inside a running container.	
+lxc-autostart	lxc-autostart - start/stop/kill auto-started containers	
+lxc-cgroup	lxc-cgroup - manage the control group associated with a container	
+lxc-checkconfig	lxc-checkconfig - check the current kernel for lxc support	
+lxc-checkpoint	lxc-checkpoint - checkpoint a container	
+lxc-config	lxc-config - query LXC system configuration	
+lxc-console	lxc-console - Launch a console for the specified container	
+lxc-copy	lxc-copy - copy an existing container.	
+lxc-create	lxc-create - creates a container	
+lxc-destroy	lxc-destroy - destroy a container.	
+lxc-device	lxc-device - manage devices of running containers	
+lxc-execute	lxc-execute - run an application inside a container.	
+lxc-freeze	lxc-freeze - freeze all the container's processes	
+lxc-info	lxc-info - query information about a container	
+lxc-ls	lxc-ls - list the containers existing on the system	
+lxc-monitor	lxc-monitor - monitor the container state	
+lxc-snapshot	lxc-snapshot - Snapshot an existing container.	
+lxc-start	lxc-start - run an application inside a container.	
+lxc-stop	lxc-stop - stop the application running inside a container	
+lxc-top	lxc-top - monitor container statistics	
+lxc-unfreeze	lxc-unfreeze - thaw all the container's processes	
+lxc-unshare	lxc-unshare - Run a task in a new set of namespaces.	
+lxc-update-config	"lxc-update-config - update a legacy pre LXC 2.1 configuration
+file"	
+lxc-user-nic	lxc-user-nic - Manage nics in another network namespace	
+lxc-usernsexec	lxc-usernsexec - Run a task as root in a new user namespace.	
+lxc-wait	lxc-wait - wait for a specific container state	
+machinectl	machinectl - Control the systemd machine manager	
+make	make - GNU make utility to maintain groups of programs	
+makeconv	makeconv - compile a converter table	
+man	man - an interface to the system reference manuals	
+man-recode	man-recode - convert manual pages to another encoding	
+manconv	manconv - convert manual page from one encoding to another	
+manpath	manpath - determine search path for manual pages	
+mariabackup	mariabackup - Backup tool	
+mariadb-conv	mariadb-conv - character set conversion utility for MariaDB	
+mariadb-service-convert	"mariadb-service-convert - generate a mariadb.service file based
+on the current mysql/mariadb settings"	
+mbstream	mbstream - Serialize/deserialize files in the XBSTREAM format	
+mckey	mckey - RDMA CM multicast setup and simple data transfer test.	
+mcookie	mcookie - generate magic cookies for xauth	
+md5sum	md5sum - compute and check MD5 message digest	
+memusage	memusage - profile memory usage of a program	
+memusagestat	memusagestat - generate graphic from memory profiling data	
+mesg	mesg - display (or do not display) messages from other users	
+minicom	minicom - friendly serial communication program	
+miniunzip	miniunzip - uncompress and examine ZIP archives	
+minizip	minizip - create ZIP archives	
+mk-ca-bundle	mk-ca-bundle - convert mozilla's certdata.txt to PEM format	
+mkaf	mkaf - create a Performance Co-Pilot archive folio	
+mkdir	mkdir - make directories	
+mkfifo	mkfifo - make FIFOs (named pipes)	
+mknod	mknod - make block or character special files	
+mktemp	mktemp - create a temporary file or directory	
+mmroff	"mmroff - cross-referencing front end for GNU roff mm macro
+package"	
+more	more - file perusal filter for crt viewing	
+mountpoint	mountpoint - see if a directory or file is a mountpoint	
+mpstat	mpstat - Report processors related statistics.	
+mrtg2pcp	mrtg2pcp - import MRTG data and create a PCP archive	
+msgattrib	"msgattrib - attribute matching and manipulation on message
+catalog"	
+msgcat	msgcat - combines several message catalogs	
+msgcmp	msgcmp - compare message catalog and template	
+msgcomm	msgcomm - match two message catalogs	
+msgconv	msgconv - character set conversion for message catalog	
+msgen	msgen - create English message catalog	
+msgexec	msgexec - process translations of message catalog	
+msgfilter	msgfilter - edit translations of message catalog	
+msgfmt	msgfmt - compile message catalog to binary format	
+msggrep	msggrep - pattern matching on message catalog	
+msginit	msginit - initialize a message catalog	
+msgmerge	msgmerge - merge message catalog and template	
+msgunfmt	msgunfmt - uncompile message catalog from binary format	
+msql2mysql	msql2mysql - convert mSQL programs for use with MySQL	
+mtrace	mtrace - interpret the malloc trace log	
+mv	mv - move (rename) files	
+my_print_defaults	my_print_defaults - display options from option files	
+my_safe_process	"my_safe_process - Utility program that encapsulates process
+creation, monitoring and bulletproof process cleanup"	
+myisam_ftdump	myisam_ftdump - display full-text index information	
+myisamchk	myisamchk - MyISAM table-maintenance utility	
+myisamlog	myisamlog - display MyISAM log file contents	
+myisampack	"myisampack - generate compressed, read-only MyISAM tables"	
+myrocks_hotbackup	myrocks_hotbackup - streaming backup for MariaDB MyRocks	
+mysql_embedded	mysql - the MariaDB command-line tool	
+mysql	mysql - the MariaDB command-line tool	
+mysql_client_test_embedded	"mysql_client_test - test client API
+mysql_client_test_embedded - test client API for embedded server"	
+mysql_client_test	"mysql_client_test - test client API
+mysql_client_test_embedded - test client API for embedded server"	
+mysql_config	mysql_config - get compile options for compiling clients	
+mysql_convert_table_format	"mysql_convert_table_format - convert tables to use a given
+storage engine"	
+mysql_find_rows	mysql_find_rows - extract SQL statements from files	
+mysql_fix_extensions	mysql_fix_extensions - normalize table file name extensions	
+mysql_install_db	mysql_install_db - initialize MariaDB data directory	
+mysql_ldb	mysql_ldb - RocksDB tool	
+mysql_plugin	mysql_plugin - configure MariaDB server plugins	
+mysql_secure_installation	mysql_secure_installation - improve MariaDB installation security	
+mysql_setpermission	"mysql_setpermission - interactively set permissions in grant
+tables"	
+mysql_tzinfo_to_sql	mysql_tzinfo_to_sql - load the time zone tables	
+mysql_upgrade	mysql_upgrade - check tables for MariaDB upgrade	
+mysql_waitpid	mysql_waitpid - kill process and wait for its termination	
+mysql-stress-test.pl	mysql-stress-test.pl - server stress test program	
+mysql-test-run.pl	mysql-test-run.pl - run MariaDB test suite	
+mysql.server	mysql.server - MariaDB server startup script	
+mysqlaccess	mysqlaccess - client for checking access privileges	
+mysqladmin	mysqladmin - client for administering a MariaB server	
+mysqlbinlog	mysqlbinlog - utility for processing binary log files	
+mysqlcheck	mysqlcheck - a table maintenance program	
+mysqld_multi	mysqld_multi - manage multiple MariaDB servers	
+mysqld_safe	mysqld_safe - MariaDB server startup script	
+mysqld_safe_helper	mysqld_safe_helper - helper script	
+mysqldump	mysqldump - a database backup program	
+mysqldumpslow	mysqldumpslow - Summarize slow query log files	
+mysqlhotcopy	mysqlhotcopy - a database backup program	
+mysqlimport	mysqlimport - a data import program	
+mysqlshow	"mysqlshow - display database, table, and column information"	
+mysqlslap	mysqlslap - load emulation client	
+mysqltest_embedded	"mysqltest - program to run test cases
+mysqltest_embedded - program to run embedded test cases"	
+mysqltest	"mysqltest - program to run test cases
+mysqltest_embedded - program to run embedded test cases"	
+mytop	mytop - display MariaDB server performance info like 'top'	
+namei	namei - follow a pathname until a terminal point is found	
+ncat	ncat - Concatenate and redirect sockets	
+ncurses5-config	ncurses5-config - helper script for ncurses libraries	
+ncurses6-config	ncurses6-config - helper script for ncurses libraries	
+ndiff	ndiff - Utility to compare the results of Nmap scans	
+needs-restarting	"needs-restarting - report running processes that have been
+updated"	
+neqn	neqn - format equations for character-cell terminal output	
+networkctl	networkctl - Query the status of network links	
+newgidmap	newgidmap - set the gid mapping of a user namespace	
+newgrp	newgrp - log in to a new group	
+newhelp	newhelp - generate a performance metrics help database	
+newrole	newrole - run a shell with a new SELinux role	
+newuidmap	newuidmap - set the uid mapping of a user namespace	
+nfs4_getfacl	nfs4_getfacl - get NFSv4 file/directory access control lists	
+nfs4_editfacl	"nfs4_setfacl, nfs4_editfacl - manipulate NFSv4 file/directory
+access control lists"	
+nfs4_setfacl	"nfs4_setfacl, nfs4_editfacl - manipulate NFSv4 file/directory
+access control lists"	
+nfsiostat-sysstat	"nfsiostat-sysstat (the nfsiostat command from the sysstat
+package) - Report input/output statistics for network filesystems
+(NFS)."	
+ngettext	ngettext - translate message and choose plural form	
+nice	nice - run a program with modified scheduling priority	
+nitrocli	nitrocli - access Nitrokey devices	
+nl	nl - number lines of files	
+nm	nm - list symbols from object files	
+nmap	nmap - Network exploration tool and security / port scanner	
+nohup	"nohup - run a command immune to hangups, with output to a non-tty"	
+nping	nping - Network packet generation tool / ping utility	
+nproc	nproc - print the number of processing units available	
+nroff	nroff - format documents with groff for TTY (terminal) devices	
+nsenter	nsenter - run program in different namespaces	
+numfmt	numfmt - Convert numbers from/to human-readable strings	
+objcopy	objcopy - copy and translate object files	
+objdump	objdump - display information from object files	
+ocount	ocount - Event counting tool for Linux	
+ocsptool	ocsptool - GnuTLS OCSP tool	
+od	od - dump files in octal and other formats	
+oomctl	oomctl - Analyze the state stored in systemd-oomd	
+op-check-perfevents	op-check-perfevents - checks for kernel perf pmu support	
+opannotate	"opannotate - produce source or assembly annotated with profile
+data"	
+oparchive	oparchive - produce archive of oprofile data for offline analysis	
+opcontrol	opcontrol - control OProfile profiling	
+openvt	openvt - start a program on a new virtual terminal (VT).	
+operf	operf - Performance profiler tool for Linux	
+opgprof	opgprof - produce gprof-format profile data	
+ophelp	ophelp - list OProfile events	
+opimport	opimport - converts sample database files	
+opjitconv	opjitconv - convert jit dump file to an ELF	
+opreport	opreport - produce symbol or binary image summaries	
+oprof_start	oprof_start - A GUI interface for OProfile	
+oprofile	"oprofile - a statistical profiler for Linux systems, capable of
+profiling all running code at low overhead; also included is a
+set of post-profiling analysis tools, as well as a simple event
+counting tool"	
+ovn-detrace	"ovn-detrace - convert ``ovs-appctl ofproto/trace'' output to
+combine OVN logical flow information."	
+ovs-pcap	ovs-pcap - print packets from a pcap file as hex	
+ovs-sim	ovs-sim - Open vSwitch simulator environment	
+ovs-tcpundump	ovs-tcpundump - convert ``tcpdump -xx'' output to hex strings	
+ovsdb-client	ovsdb-client - command-line interface to ovsdb-server(1)	
+ovsdb-idlc	"ovsdb-idlc - Open vSwitch IDL (Interface Definition Language)
+compiler"	
+ovsdb-server	ovsdb-server - Open vSwitch database server	
+ovsdb-tool	ovsdb-tool - Open vSwitch database management utility	
+p11tool	p11tool - GnuTLS PKCS #11 tool	
+package-cleanup	"package-cleanup - clean up locally installed, duplicate, or
+orphaned packages"	
+passwd	passwd - change user password	
+paste	paste - merge lines of files	
+patch	patch - apply a diff file to an original	
+pathchk	pathchk - check whether file names are valid or portable	
+pcap-config	"pcap-config - write libpcap compiler and linker flags to standard
+output"	
+pcp-atop	pcp-atop - Advanced System and Process Monitor	
+pcp-atopsar	pcp-atopsar - Advanced System Activity Report (pcp-atop related)	
+pcp-dmcache	"pcp-dmcache, pcp-lvmcache - report on logical storage device
+caches"	
+pcp-lvmcache	"pcp-dmcache, pcp-lvmcache - report on logical storage device
+caches"	
+pcp-dstat	"pcp-dstat - versatile tool for generating system resource
+statistics"	
+pcp-free	pcp-free - report on free and used memory in the system	
+pcp-ipcs	pcp-ipcs - provide information on IPC facilities	
+pcp-kube-pods	"pcp-kube-pods - list Kubernetes pods to scan for running PCP
+services"	
+pcp-mpstat	pcp-mpstat - Report CPU and interrupt related statistics.	
+pcp-numastat	pcp-numastat - report on NUMA memory allocation	
+pcp-pidstat	pcp-pidstat - Report statistics for Linux tasks.	
+pcp-python	pcp-python - run a python script using a preferred python variant	
+pcp-shping	pcp-shping - report on shell service availability and response	
+pcp-ss	pcp-ss - report socket statistics	
+pcp-tapestat	pcp-tapestat - report tape I/O statistics	
+pcp-uptime	pcp-uptime - tell how long the system has been running	
+pcp-verify	pcp-verify - verify aspects of a PCP installation	
+pcp-vmstat	"pcp-vmstat, pmstat - high-level system performance overview"	
+pcp-summary	"pcp, pcp-summary - run a command or summarize an installation"	
+pcp	"pcp, pcp-summary - run a command or summarize an installation"	
+pcp2elasticsearch	pcp2elasticsearch - pcp-to-elasticsearch metrics exporter	
+pcp2graphite	pcp2graphite - pcp-to-graphite metrics exporter	
+pcp2influxdb	pcp2influxdb - pcp-to-influxdb metrics exporter	
+pcp2json	pcp2json - pcp-to-json metrics exporter	
+pcp2spark	pcp2spark - pcp-to-spark metrics exporter	
+pcp2xlsx	pcp2xlsx - pcp-to-xlsx metrics exporter	
+pcp2xml	pcp2xml - pcp-to-xml metrics exporter	
+pcp2template	pcp2XXX - pcp-to-XXX metrics exporter	
+pcp2XXX	pcp2XXX - pcp-to-XXX metrics exporter	
+pcp2zabbix	pcp2zabbix - pcp-to-zabbix metrics exporter	
+pcp-collectl	"PCPCompat, pcp-collectl, pmmgr, pmwebd - backward-compatibility
+in the Performance Co-Pilot (PCP)"	
+PCPCompat	"PCPCompat, pcp-collectl, pmmgr, pmwebd - backward-compatibility
+in the Performance Co-Pilot (PCP)"	
+pcpcompat	"PCPCompat, pcp-collectl, pmmgr, pmwebd - backward-compatibility
+in the Performance Co-Pilot (PCP)"	
+PCPIntro	PCPIntro - introduction to the Performance Co-Pilot (PCP)	
+pcpintro	PCPIntro - introduction to the Performance Co-Pilot (PCP)	
+pcre-config	pcre-config - program to return PCRE configuration	
+pcregrep	pcregrep - a grep with Perl-compatible regular expressions.	
+pcretest	"pcretest - a program for testing Perl-compatible regular
+expressions."	
+pdfmom	"pdfmom - produce PDF documents using the mom macro package for
+groff"	
+pdfroff	pdfroff - construct files in Portable Document Format using groff	
+peekfd	peekfd - peek at file descriptors of running processes	
+perf-annotate	"perf-annotate - Read perf.data (created by perf record) and
+display annotated code"	
+perf-archive	"perf-archive - Create archive with object files with build-ids
+found in perf.data file"	
+perf-bench	perf-bench - General framework for benchmark suites	
+perf-buildid-cache	perf-buildid-cache - Manage build-id cache.	
+perf-buildid-list	perf-buildid-list - List the buildids in a perf.data file	
+perf-c2c	perf-c2c - Shared Data C2C/HITM Analyzer.	
+perf-config	perf-config - Get and set variables in a configuration file.	
+perf-daemon	perf-daemon - Run record sessions on background	
+perf-data	perf-data - Data file related processing	
+perf-diff	"perf-diff - Read perf.data files and display the differential
+profile"	
+perf-dlfilter	"perf-dlfilter - Filter sample events using a dynamically loaded
+shared object file"	
+perf-evlist	perf-evlist - List the event names in a perf.data file	
+perf-ftrace	perf-ftrace - simple wrapper for kernel's ftrace functionality	
+perf-help	perf-help - display help information about perf	
+perf-inject	"perf-inject - Filter to augment the events stream with additional
+information"	
+perf-intel-pt	"perf-intel-pt - Support for Intel Processor Trace within perf
+tools"	
+perf-iostat	perf-iostat - Show I/O performance metrics	
+perf-kallsyms	perf-kallsyms - Searches running kernel for symbols	
+perf-kmem	perf-kmem - Tool to trace/measure kernel memory properties	
+perf-kvm	perf-kvm - Tool to trace/measure kvm guest os	
+perf-list	perf-list - List all symbolic event types	
+perf-lock	perf-lock - Analyze lock events	
+perf-mem	perf-mem - Profile memory accesses	
+perf-probe	perf-probe - Define new dynamic tracepoints	
+perf-record	perf-record - Run a command and record its profile into perf.data	
+perf-report	"perf-report - Read perf.data (created by perf record) and display
+the profile"	
+perf-sched	"perf-sched - Tool to trace/measure scheduler properties
+(latencies)"	
+perf-script	"perf-script - Read perf.data (created by perf record) and display
+trace output"	
+perf-script-perl	perf-script-perl - Process trace data with a Perl script	
+perf-script-python	perf-script-python - Process trace data with a Python script	
+perf-stat	"perf-stat - Run a command and gather performance counter
+statistics"	
+perf-test	perf-test - Runs sanity tests.	
+perf-timechart	"perf-timechart - Tool to visualize total system behavior during a
+workload"	
+genload	"pmdatxmon, txrecord, genload - txmon performance metrics domain
+agent (PMDA)"	
+pcp-iostat	"pmiostat, pcp-iostat - report block I/O statistics"	
+pcp2csv	pmrep - performance metrics reporter	
+init	"systemd, init - systemd system and service manager"	
